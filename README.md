@@ -4,6 +4,11 @@
 
 [![NPM](https://img.shields.io/badge/Available%20On-NPM-lightgrey.svg?logo=npm&logoColor=339933&labelColor=white&style=flat-square)](https://npmjs.com/package/anime-quiz)
 
+**AnimeQuiz** is a simple module to generate Anime Quiz with options for answer.
+
+It has 50+ quizzes (Some will be added soon)
+
+
 </div>
 
 ---
@@ -15,10 +20,6 @@ npm i anime-quiz
 
 yarn add anime-quiz
 ```
-
-**AnimeQuiz** is a simple module to generate Anime Quiz with options for answer.
-
-It has 50+ quizzes (Some will be added soon)
 
 ## Usage Example
 
