@@ -305,7 +305,7 @@ module.exports = {
     {
       id: 29,
       image: null,
-      gif: nul,
+      gif: null,
       question: "What kind of wizard is Lucy in “Fairy Tail” anime?",
       options: ["Ice Wizard", "Celestial Wizard", "Fire Wizard", "Sky Wizard"],
       answer: "Celestial Wizard",
