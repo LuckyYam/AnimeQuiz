@@ -1,6 +1,6 @@
 {
   "name": "anime-quiz",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple module to generate anime quiz.",
   "main": "src/index.js",
   "scripts": {
