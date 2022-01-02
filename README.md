@@ -8,7 +8,6 @@
 
 It has 50+ quizzes (Some will be added soon)
 
-
 </div>
 
 ---
@@ -34,7 +33,7 @@ console.log(getRandomQuiz());
 
 ```js
 const { getQuizById } = require("anime-quiz");
-console.log(getQuizById());
+console.log(getQuizById(36));
 ```
 
 ## Result

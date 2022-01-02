@@ -13,7 +13,7 @@ function getRandomQuiz() {
 
 function getQuizById(id) {
   if (id > 0 && id <= quiz.quizzes.length) {
-    return quiz.quizzes[quiz.quizzes.length - id];
+    return quiz.quizzes[id];
   } else {
     return null;
   }
