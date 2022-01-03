@@ -6,7 +6,7 @@ module.exports = {
       gif: null,
       question: "Who is the Pokemon Anime’s main character?",
       options: ["Misty", "Ash", "Light", "Gary"],
-      answer: "Ash",
+      answer: ["Ash", 2],
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ module.exports = {
         "Howl's Moving Castle",
         "Sailor Moon",
       ],
-      answer: "Howl's Moving Castle",
+      answer: ["Howl's Moving Castle", 3],
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ module.exports = {
         "He couldn't be bothered in the end",
         "No-one knows",
       ],
-      answer: "He bumped his head",
+      answer: ["He bumped his head", 2],
     },
     {
       id: 4,
@@ -46,7 +46,7 @@ module.exports = {
         "Catch 'em all",
         "Kill 'em all",
       ],
-      answer: "Catch 'em all",
+      answer: ["Catch 'em all", 3],
     },
     {
       id: 5,
@@ -59,7 +59,7 @@ module.exports = {
         "You do the hockey cokey and turn around",
         "None of the above",
       ],
-      answer: "Put your head forward and arms back",
+      answer: ["Put your head forward and arms back", 1],
     },
     {
       id: 6,
@@ -68,7 +68,7 @@ module.exports = {
       gif: null,
       question: "Who is this chubby baby from Spirited Away?",
       options: ["Buddy", "Boh", "Brian", "Beng"],
-      answer: "Boh",
+      answer: ["Boh", 2],
     },
     {
       id: 7,
@@ -76,7 +76,7 @@ module.exports = {
       gif: null,
       question: "How do you spell anime in Japanese?",
       options: ["私の", "マンガ", "オタク", "アニメ"],
-      answer: "アニメ",
+      answer: ["アニメ", 4],
     },
     {
       id: 8,
@@ -90,7 +90,7 @@ module.exports = {
         "My Neighbour Totoro",
         "Kiki's Delivery Service",
       ],
-      answer: "My Neighbour Totoro",
+      answer: ["My Neighbour Totoro", 3],
     },
     {
       id: 9,
@@ -98,7 +98,7 @@ module.exports = {
       gif: null,
       question: "Which of these ISN'T a type of Pokemon?",
       options: ["Electric", "Rubber", "Grass", "Fire"],
-      answer: "Rubber",
+      answer: ["Rubber", 2],
     },
     {
       id: 10,
@@ -106,7 +106,7 @@ module.exports = {
       gif: null,
       question: "Fill in the blank...Dragon ___ Z",
       options: ["Ball", "Beach", "Film", "Mech"],
-      answer: "Ball",
+      answer: ["Ball", 1],
     },
     {
       id: 11,
@@ -114,7 +114,7 @@ module.exports = {
       gif: null,
       question: "What kind of person is Naruto?",
       options: ["A samurai", "A knight", "A ninja", "A soldier"],
-      answer: "A ninja",
+      answer: ["A ninja", 3],
     },
     {
       id: 12,
@@ -128,7 +128,7 @@ module.exports = {
         "It turns into a plane",
         "It's also a bus",
       ],
-      answer: "It's also a bus",
+      answer: ["It's also a bus", 4],
     },
     {
       id: 13,
@@ -141,7 +141,7 @@ module.exports = {
         "Cowboy Bebop",
         "Super Dimension Fortress Macross",
       ],
-      answer: "Pokémon",
+      answer: ["Pokémon", 2],
     },
     {
       id: 14,
@@ -154,7 +154,7 @@ module.exports = {
         "Hirohiko Araki",
         "Hayao Miyazaki",
       ],
-      answer: "Akira Toriyama",
+      answer: ["Akira Toriyama", 1],
     },
     {
       id: 15,
@@ -162,7 +162,7 @@ module.exports = {
       gif: null,
       question: "What is the name of Studio Ghibli’s well-known mascot?",
       options: ["Kiki", "Bakura", "Ponyo", "Totoro"],
-      answer: "Totoro",
+      answer: ["Totoro", 4],
     },
     {
       id: 16,
@@ -175,7 +175,7 @@ module.exports = {
         "Sailor Jupiter",
         "Sailor Mars",
       ],
-      answer: "Sailor Jupiter",
+      answer: ["Sailor Jupiter", 3],
     },
     {
       id: 17,
@@ -184,7 +184,7 @@ module.exports = {
       question:
         "In ‘Nurato’, the main character, Naruto Uzumaki, is a host for the powerful Nine-Tales. What creature is the Nine-Tails?",
       options: ["Wolf", "Fox", "Bear", "Cat"],
-      answer: "Fox",
+      answer: ["Fox", 2],
     },
     {
       id: 18,
@@ -198,7 +198,7 @@ module.exports = {
         "Ocean Waves",
         "Pom Poko",
       ],
-      answer: "Spirited Away",
+      answer: ["Spirited Away", 1],
     },
     {
       id: 19,
@@ -206,7 +206,7 @@ module.exports = {
       gif: null,
       question: "Which anime series is set in the world of Amestris?",
       options: ["Naruto", "Fullmetal Alchemist", "Sailor Moon", "Pokemon"],
-      answer: "Fullmetal Alchemist",
+      answer: ["Fullmetal Alchemist", 2],
     },
     {
       id: 20,
@@ -215,7 +215,7 @@ module.exports = {
       question:
         "In ‘Howl’s Moving Castle’, Sophie is transformed into an old woman by a witch. How old is Sophie as an old woman?",
       options: ["75 years old", "90 years old", "87 years old", "67 years old"],
-      answer: "90 years old",
+      answer: ["90 years old", 2],
     },
     {
       id: 21,
@@ -224,7 +224,7 @@ module.exports = {
       question:
         "In ‘One Piece’, Monkey D. Luffy originally sets out with the Straw Hat Pirates to become the pirate king on which ship?",
       options: ["Going Merry", "Jolly Roger", "Thousand Sunny", "Ever Darker"],
-      answer: "Going Merry",
+      answer: ["Going Merry", 1],
     },
     {
       id: 22,
@@ -233,7 +233,7 @@ module.exports = {
       question:
         "Which planet is also known as the Dragon World in ‘Dragon Ball’?",
       options: ["Earth", "Mars", "Jupiter", "Neptune"],
-      answer: "Earth",
+      answer: ["Earth", 1],
     },
     {
       id: 23,
@@ -247,7 +247,7 @@ module.exports = {
         "Valkyria Chronicles",
         "Blue Exorcist",
       ],
-      answer: "Black Butler",
+      answer: ["Black Butler", 2],
     },
     {
       id: 24,
@@ -261,7 +261,7 @@ module.exports = {
         "Ghost in the Shell",
         "Fullmetal Alchemist",
       ],
-      answer: "Ghost in the Shell",
+      answer: ["Ghost in the Shell", 3],
     },
     {
       id: 25,
@@ -269,7 +269,7 @@ module.exports = {
       gif: null,
       question: "Which sport is the focus of ‘Eyeshield 21’?",
       options: ["Baseball", "American Football", "Tennis", "Soccer"],
-      answer: "American Football",
+      answer: ["American Football", 2],
     },
     {
       id: 26,
@@ -283,7 +283,7 @@ module.exports = {
         "Dachshund",
         "Pembrokeshire Welsh Corgi",
       ],
-      answer: "Pembrokeshire Welsh Corgi",
+      answer: ["Pembrokeshire Welsh Corgi", 4],
     },
     {
       id: 27,
@@ -291,7 +291,7 @@ module.exports = {
       gif: null,
       question: "Which one of the following series is about time travel?",
       options: ["Steins;Gate", "Darker than Black", "City Hunter", "Devilman"],
-      answer: "Devilman",
+      answer: ["Devilman", 4],
     },
     {
       id: 28,
@@ -300,7 +300,7 @@ module.exports = {
       question:
         "A girl searches for magical objects to fulfill her wish, which is the anime?",
       options: ["One Piece", "Dragon Ball", "Fairy Tail", "Naruto"],
-      answer: "Dragon Ball",
+      answer: ["Dragon Ball", 2],
     },
     {
       id: 29,
@@ -308,7 +308,7 @@ module.exports = {
       gif: null,
       question: "What kind of wizard is Lucy in “Fairy Tail” anime?",
       options: ["Ice Wizard", "Celestial Wizard", "Fire Wizard", "Sky Wizard"],
-      answer: "Celestial Wizard",
+      answer: ["Celestial Wizard", 2],
     },
     {
       id: 30,
@@ -317,7 +317,7 @@ module.exports = {
       question:
         "Which of the following characters does the “Gum-Gum Pistol” attack belong to?",
       options: ["Chobits", "Black Butler", "Monkey D.Luffy", "Titan"],
-      answer: "Monkey D.Luffy",
+      answer: ["Monkey D.Luffy", 3],
     },
     {
       id: 31,
@@ -332,7 +332,7 @@ module.exports = {
         "Tailed Beast Bomb Rasen Shiruken",
         "None of the above",
       ],
-      answer: "Six Paths Sage Mode",
+      answer: ["Six Paths Sage Mode", 2],
     },
     {
       id: 32,
@@ -341,7 +341,7 @@ module.exports = {
       gif: null,
       question: "He is Light Yagami. He is the main character of ….. anime.",
       options: ["One Piece", "Fairy Tail", "Death Note", "Dragon Ball"],
-      answer: "Death Note",
+      answer: ["Death Note", 3],
     },
     {
       id: 33,
@@ -355,7 +355,7 @@ module.exports = {
         "One Piece",
         "Fairy Tail",
       ],
-      answer: "Spirited Away",
+      answer: ["Spirited Away", 1],
     },
     {
       id: 34,
@@ -364,7 +364,7 @@ module.exports = {
       gif: null,
       question: "Who is he?",
       options: ["Nami", "Usopp", "Rorona Zoro", "Nico Robin"],
-      answer: "Rorona Zoro",
+      answer: ["Rorona Zoro", 3],
     },
     {
       id: 35,
@@ -373,7 +373,7 @@ module.exports = {
       gif: null,
       question: "This cat is one of the cutest characters of …… anime.",
       options: ["SAO", "Naruto", "Spirited Away", "In My Neighbour Totoro"],
-      answer: "In My Neighbour Totoro",
+      answer: ["In My Neighbour Totoro", 4],
     },
     {
       id: 36,
@@ -382,7 +382,7 @@ module.exports = {
       gif: null,
       question: "Name this character",
       options: ["Nami", "Sophie", "Kiki", "Haruka"],
-      answer: "Sophie",
+      answer: ["Sophie", 2],
     },
     {
       id: 37,
@@ -391,7 +391,7 @@ module.exports = {
       question:
         "What is the name of the ability that allows Fujinuma Satoru to time travel?",
       options: ["Revival", "Time Leap", "Return By Death", "Dues Ex"],
-      answer: "Revival",
+      answer: ["Revival", 1],
     },
     {
       id: 38,
@@ -405,7 +405,7 @@ module.exports = {
         "Kanai Narumi",
         "Minagawa Akane",
       ],
-      answer: "Minagawa Akane",
+      answer: ["Minagawa Akane", 4],
     },
     {
       id: 39,
@@ -419,7 +419,7 @@ module.exports = {
         "Psycho-Pass",
         "Wizard Barristers",
       ],
-      answer: "Psycho-Pass",
+      answer: ["Psycho-Pass", 3],
     },
     {
       id: 40,
@@ -433,7 +433,7 @@ module.exports = {
         "$1200 - 20000",
         "$1.2 - 2 million",
       ],
-      answer: "$1.2 - 2 million",
+      answer: ["$1.2 - 2 million", 4],
     },
     {
       id: 41,
@@ -441,7 +441,7 @@ module.exports = {
       gif: null,
       question: "What is the name of Megumin's (Konosuba) pet or familiar?",
       options: ["Kuro", "Chomusuke", "Kuroneko", "Megusuke"],
-      answer: "Chomusuke",
+      answer: ["Chomusuke", 2],
     },
     {
       id: 42,
@@ -450,7 +450,7 @@ module.exports = {
       question:
         'Which fast food chain advertised throughout the anime"Code Geass"',
       options: ["McDonald's", "Subway", "KFC", "Piza Hut"],
-      answer: "Pizza Hut",
+      answer: ["Pizza Hut", 4],
     },
     {
       id: 43,
@@ -459,7 +459,7 @@ module.exports = {
       question:
         'In a curry cooking competition, which character just heated a bag of pre-made curry... and ate it all herself? (From the anime"Kantai Collection")',
       options: ["Inazuma", "Fubuki", "Shimakaze", "Yuudachi"],
-      answer: "Shimakaze",
+      answer: ["Shimakaze", 3],
     },
     {
       id: 44,
@@ -467,7 +467,7 @@ module.exports = {
       gif: null,
       question: "How tall is Haruyuki Arita?",
       options: ["134 cm", "139 cm", "145 cm", "149 cm"],
-      answer: "139 cm",
+      answer: ["139 cm", 2],
     },
     {
       id: 45,
@@ -476,7 +476,7 @@ module.exports = {
       question:
         "Which country did Nakiri Alice live in, prior to joining Totsuki?",
       options: ["Sweden", "France", "Denmark", "Finland"],
-      answer: "Denmark",
+      answer: ["Denmark", 2],
     },
     {
       id: 46,
@@ -490,7 +490,7 @@ module.exports = {
         "Baka to test",
         "Detective Conan/Case Closed",
       ],
-      answer: "Gintama",
+      answer: ["Gintama", 2],
     },
     {
       id: 47,
@@ -498,7 +498,7 @@ module.exports = {
       gif: null,
       question: "Squealer/Yakomaru is the leader of which colony/group?",
       options: ["Giant Hornet", "Robber Fly", "Ground Spider", "Goat Moth"],
-      answer: "Robber Fly",
+      answer: ["Robber Fly", 2],
     },
     {
       id: 48,
@@ -512,7 +512,7 @@ module.exports = {
         "The X world line (lambda)",
         "The Steins;Gate world line",
       ],
-      answer: "The X world line (lambda)",
+      answer: ["The X world line (lambda)", 3],
     },
     {
       id: 49,
@@ -525,7 +525,7 @@ module.exports = {
         "Caitlin Glass",
         "Kate Higgins",
       ],
-      answer: "Brina Palencia",
+      answer: ["Brina Palencia", 2],
     },
     {
       id: 50,
@@ -533,7 +533,7 @@ module.exports = {
       gif: null,
       question: "Which shinigami dropped his notebook in the human world?",
       options: ["Grell Sutcliff", "Rem", "Asuna", "Ryuk"],
-      answer: "Ryuk",
+      answer: ["Ryuk", 4],
     },
     {
       id: 51,
@@ -542,7 +542,7 @@ module.exports = {
       question:
         'From which anime is the quote "People die when they are killed." ?',
       options: ["Fate/stay Night", "Mobile Suit Gundam", "Steins;Gate", "SAO"],
-      answer: "Fate/stay Night",
+      answer: ["Fate/stay Night", 1],
     },
     {
       id: 52,
@@ -550,7 +550,7 @@ module.exports = {
       gif: null,
       question: "Which anime has the OP 'Kyouran Hey Kids!!' ?",
       options: ["Nisekoi", "Noragami", "SAO", "Fairy Tail"],
-      answer: "Noragami",
+      answer: ["Noragami", 1],
     },
     {
       id: 53,
@@ -558,7 +558,7 @@ module.exports = {
       gif: null,
       question: "Yuno Gasai and Yukiteru Amano both feature in which anime?",
       options: ["Corpse Party", "Mirai Nikki", "Death Note", "Steins;Gate"],
-      answer: "Mirai Nikki",
+      answer: ["Mirai Nikki", 2],
     },
     {
       id: 54,
@@ -567,7 +567,7 @@ module.exports = {
       question:
         "What is the name of the organisation who's aim is to exterminate ghouls?",
       options: ["CCG", "SOS Brigade", "Aogiri Tree", "None of the above"],
-      answer: "CCG",
+      answer: ["CCG", 1],
     },
     {
       id: 55,
@@ -581,7 +581,7 @@ module.exports = {
         "Kuroshitsuji: Book Of Murder",
         "None of the above",
       ],
-      answer: "Kuroshitsuji: Book Of Murder",
+      answer: ["Kuroshitsuji: Book Of Murder", 3],
     },
     {
       id: 56,
@@ -595,7 +595,7 @@ module.exports = {
         "Sayaka Maizono",
         "None of the above",
       ],
-      answer: "Leon Kuwata",
+      answer: ["Leon Kuwata", 2],
     },
   ],
 };
