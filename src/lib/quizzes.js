@@ -550,7 +550,7 @@ module.exports = {
       gif: null,
       question: "Which anime has the OP 'Kyouran Hey Kids!!' ?",
       options: ["Nisekoi", "Noragami", "SAO", "Fairy Tail"],
-      answer: ["Noragami", 1],
+      answer: ["Noragami", 2],
     },
     {
       id: 53,

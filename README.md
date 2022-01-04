@@ -47,7 +47,6 @@ console.log(getRandomQuiz());
       ],
       answer: ["Six Paths Sage Mode", 2],
 }
-
 ```
 
 ### To generate quiz by their id
@@ -69,5 +68,4 @@ console.log(getQuizById(65));
       options: ["Episode 4", "Episode 7", "Episode 2", "Episode 1"],
       answer: ["Episode 2", 3],
 }
-
 ```
