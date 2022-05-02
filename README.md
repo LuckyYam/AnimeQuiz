@@ -6,7 +6,7 @@
 
 **AnimeQuiz** is a simple module to generate Anime Quiz with options for answer.
 
-It has over 100 quizzes (Some will be added soon)
+It has over 100 quizzes
 
 </div>
 
@@ -24,48 +24,49 @@ yarn add anime-quiz
 
 ### To generate Random quiz
 
-```js
-const { getRandomQuiz } = require("anime-quiz");
-console.log(getRandomQuiz());
+```ts
+import { Quiz } from 'anime-quiz' //const { Quiz } = require('anime-quiz')
+(() => {
+  const { getRandom } = new Quiz()
+  console.log(getRandom())
+})()
 ```
 
 ## Result
 
 ```
 {
-      id: 31,
-      image:
-        "https://www.quizexpo.com/wp-content/uploads/2020/02/4Z2ZT6DEm_EORh_tUnAocLiemLxNE876EIejVQVq_AA-1-1024x591.jpg",
-      gif: null,
+      id: 84,
       question:
-        "Naruto has different types of modes. Do you know what is the name of this mode?",
+        "What is the name of the stuffed lion in Bleach?",
       options: [
-        "Kuruma Chakra Mode",
-        "Six Paths Sage Mode",
-        "Tailed Beast Bomb Rasen Shiruken",
-        "None of the above",
+        "Jo",
+        "Kon",
+        "Chad",
+        "Urdiu",
       ],
-      answer: ["Six Paths Sage Mode", 2],
+      answer: "Kon",
 }
 ```
 
-### To generate quiz by their id
+### To generate quiz by id
 
-```js
-const { getQuizById } = require("anime-quiz");
-console.log(getQuizById(65));
+```ts
+import { Quiz } from 'anime-quiz' //const { Quiz } = require('anime-quiz')
+(() => {
+  const { getQuizById } = new Quiz()
+  console.log(getQuizById(34))
+})()
 ```
 
-## Result (It will return null if no results are found)
+## Result
 
 ```
 {
-      id: 65,
-      image: null,
-      gif: "https://media0.giphy.com/media/HCgIpUBbHxVX6degal/giphy.gif?cid=790b76119582464d32479e1e29a12f6f8e2eae6464c9da63&rid=giphy.gif&ct=g",
+      id: 34,
       question:
-        "This scene is from the anime 86 (Season 1), what is the episode of this scene?",
-      options: ["Episode 4", "Episode 7", "Episode 2", "Episode 1"],
-      answer: ["Episode 2", 3],
+        "In the 2011 TV anime series, \"The iDOLM@ster\", what was the name of Iori's stuffed toy bunny?",
+      options: ["Usagi", "Bubsy", "Charles", "Kero"],
+      answer: "Charles",
 }
 ```
